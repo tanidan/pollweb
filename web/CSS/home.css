@@ -1,0 +1,31 @@
+section {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	font-family: Verdana, Arial, Trebuchet MS;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        max-width: 1300px;
+}
+
+#poll_list {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-right: 50px;
+	margin-left: 50px;
+	font-size: 1.5em;
+}
+
+#poll_list a {
+	color: white;
+	padding: 50px 10px 0px 10px;
+	margin : 30px 30px 30px 30px;
+	background-color: #03224C;
+	opacity: 0.75;
+	border-radius: 10px;
+	text-align: center;
+	width: 220px;
+	height: 90px;
+        text-decoration: none;
+}

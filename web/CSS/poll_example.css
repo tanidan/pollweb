@@ -1,0 +1,71 @@
+h3 {
+	color: black;    
+	margin-bottom: 0px;
+	opacity: 0.8;
+	padding: 10px 10px 10px 10px;
+	margin-top: 41px;
+	font-size: 1.5em;
+}
+
+.text {
+	color: black;
+	width: 500px;
+	text-align: center;
+}
+
+
+section {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	font-family: Verdana, Arial, Trebuchet MS;
+	width: 900px;
+	background-color: white;
+	box-shadow: 0px 0px 9px #1c1a19;
+	z-index: 0;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+input {
+	text-align: center;
+}
+
+.fond_question {
+	background-color: #03224C; 
+	width: 100%;
+	color: white;
+	margin-bottom: 20px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	text-align: center;
+	opacity: 0.9;
+}
+
+.question {
+	background-color: #efefef;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	padding-bottom: 20px;
+	box-shadow: 0px 0px 9px #1c1a19;
+	width: 500px;
+	opacity: 0.9;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.note{
+        color: #666666;
+        font-style: italic;
+        margin-top: 10px;
+}
+
+#poll_send {
+	font-size: 1.2em;
+	margin-bottom: 50px;
+}

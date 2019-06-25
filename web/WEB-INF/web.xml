@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
+   
+    <servlet>
+        <servlet-name>Home</servlet-name>
+        <servlet-class>pollweb.controller.Home</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Home</servlet-name>
+        <url-pattern>/Home</url-pattern>
+    </servlet-mapping>
+  
+    <servlet>
+        <servlet-name>Manager</servlet-name>
+        <servlet-class>pollweb.controller.Manager</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Manager</servlet-name>
+        <url-pattern>/Manager</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>Login</servlet-name>
+        <servlet-class>pollweb.controller.Login</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Login</servlet-name>
+        <url-pattern>/Login</url-pattern>
+    </servlet-mapping>
+  
+    <servlet>
+        <servlet-name>Administrator</servlet-name>
+        <servlet-class>pollweb.controller.Administrator</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Administrator</servlet-name>
+        <url-pattern>/Administrator</url-pattern>
+    </servlet-mapping>
+  
+    <servlet>
+        <servlet-name>PollShow</servlet-name>
+        <servlet-class>pollweb.controller.PollShow</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>PollShow</servlet-name>
+        <url-pattern>/Example</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>PollCreate</servlet-name>
+        <servlet-class>pollweb.controller.PollCreate</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>PollCreate</servlet-name>
+        <url-pattern>/PollCreate</url-pattern>
+    </servlet-mapping>
+  
+    <servlet>
+        <servlet-name>Answers</servlet-name>
+        <servlet-class>pollweb.controller.Answers</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Answers</servlet-name>
+        <url-pattern>/Answers</url-pattern>
+    </servlet-mapping>
+  
+    <resource-ref>
+        <res-ref-name>jdbc/pollwebdb</res-ref-name>
+        <res-type>javax.sql.DataSource</res-type>
+        <res-auth>Container</res-auth>
+        <res-sharing-scope>Shareable</res-sharing-scope>
+    </resource-ref>
+</web-app>

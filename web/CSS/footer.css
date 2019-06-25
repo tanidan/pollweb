@@ -1,0 +1,31 @@
+footer {
+        bottom: 0px;
+        background-color: #00081E;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 0px 0px 9px #1c1a19;
+        color : white;
+        z-index: 1;
+        width: 100%;
+        position: relative;
+}
+
+footer img {
+	width : 90px;
+	height: 90px;
+}
+
+footer p {
+	margin-left: 40px;
+	margin-right: 10px;
+}
+
+footer li {
+	margin-left: 20px;
+}
+
+#developers {
+	list-style-type: none;
+	margin-left: 0px;
+}

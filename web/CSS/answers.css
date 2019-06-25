@@ -1,0 +1,33 @@
+section {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	font-family: Verdana, Arial, Trebuchet MS;
+        padding-top: 50px;
+        padding-bottom: 50px;
+}
+
+table {
+    border-collapse: collapse;
+    background-color: white;
+}
+
+td, th {
+    border: 1px solid black;
+    padding: 3px 60px 3px 60px;
+}
+
+.center {
+    background-color: #DCDCDC;
+    opacity: 0.8;
+}
+
+.side {
+    background-color: #03224C;
+    color: white;
+    opacity: 0.8;
+}
+
+.side a {
+    color: white;
+}

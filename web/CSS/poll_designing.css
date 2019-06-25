@@ -1,0 +1,152 @@
+button, input, select, textarea {
+        font-family : inherit;
+        font-size   : 100%;
+}
+
+#poll_title {
+	margin-bottom: 20px;
+	font-weight: bold;
+	font-size: 1.5em;
+	text-align: center;
+	text-decoration: underline;
+}
+
+section {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	font-family: Verdana, Arial, Trebuchet MS;
+	width: 900px;
+	background-color: white;
+	box-shadow: 0px 0px 9px #1c1a19;
+	z-index: 0;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.question {
+	background-color: #efefef;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	box-shadow: 0px 0px 9px #1c1a19;
+	width: 500px;
+	display: none;
+}
+
+#question_1 {
+	display: block;
+}
+
+.question_top {
+	background-color: #03224C; 
+	width: 500px;
+	height: 50px;
+	color: white;
+	opacity: 0.8;
+	text-align: center;
+	text-decoration: underline;
+}
+
+.question_body {
+	padding: 20px 20px 20px 20px;
+	display: flex;
+        flex-direction: column;
+	justify-content: center;
+        text-align: center;
+}
+
+.question_choices {
+	display: none;
+	margin-bottom: 30px;
+}
+
+#question_choices_1 {
+	display: block;
+}
+
+textarea {
+	border: none;
+	text-align: center;
+	text-decoration: underline;
+}
+
+.note {
+    text-decoration: underline;
+    margin-bottom: 30px;
+}
+
+.type_answer textarea {
+	text-decoration: none;
+}
+
+#closing_text {
+	margin-bottom: 30px;
+}
+
+input[type="text"], input[type="button"] {
+	border: none;
+	text-align: center;
+}
+
+#envoi_infos_poll{
+	margin-top: 30px;
+}
+
+#buttons {
+	margin-bottom: 30px;
+	margin-top: 40px;
+	display: flex;
+}
+
+#add_question {
+	background-color: #03224C;
+	color: white;
+	border-radius: 30px;
+	height: 50px;
+	width: 50px;
+}
+
+#res_question {
+	background-color: #6E0B14;
+	color: white;
+	border-radius: 30px;
+	height: 50px;
+	width: 50px;
+	display: none;
+}
+
+.button_question {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 20px;
+}
+
+.add_answer {
+	background-color: #03224C;
+	color: white;
+	border-radius: 30px;
+	height: 29px;
+	width: 29px;
+	display: none;
+}
+
+.res_answer {
+	background-color: #6E0B14;
+	color: white;
+	border-radius: 30px;
+	height: 29px;
+	width: 29px;
+	margin-left: 5px;
+	display: none;
+}
+
+#poll_send{
+	margin-top: 30px;
+	font-size: 1.2em;
+}
